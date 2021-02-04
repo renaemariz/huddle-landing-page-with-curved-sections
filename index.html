@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script> 
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+</head>
+<body>
+  <div class="wrapper">
+  <header>
+    <nav>
+      <div class="nav container">
+        <div class="logo-container">
+          <img class="logo" src="./images/logo.svg" alt="Huddle">
+        </div>
+        <div class="action-items">
+          <button class="btn btn-small light-pink">Try it free</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section class="svg-bottom">
+      <div class="container">
+        <div class="hero-text">
+          <h1 class="title">Build The Community Your Fans Will Love</h1>
+          <p class="description">
+            Huddle re-imagines the way we build communities. You have a voice, but so does 
+            your audience. Create connections with your users as you engage in genuine discussion. 
+          </p>
+          <button class="btn btn-primary"> Get Started For Free</button>
+
+          <div class="banner">
+            <img src="./images/screen-mockups.svg" alt="banner" />
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="svg-bottom">
+    <div class="container statistics row">
+      <div class="card">
+          <img class="icon" src="./images/icon-communities.svg" alt="communities icon" />
+          <h3 class="title">1.4k+</h3>
+          <p class="description">
+            Communities Formed
+          </p>
+      </div>
+      <div class="card">
+          <img class="icon" src="./images/icon-messages.svg" alt="communities icon" />
+          <h3 class="title">2.7m+</h3>
+          <p class="description">
+            Messages Sent
+          </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+      <div class="image-with-text svg-bottom">
+      <div class="container row">
+        <div class="col">
+          <img src="./images/illustration-grow-together.svg" alt="grow together" />
+        </div>
+        <div class="col">
+          <h2 class="title">Grow Together</h2>
+          <p class="description">
+            Generate meaningful discussions with your audience and build a strong, loyal community. 
+            Think of the insightful conversations you miss out on with a feedback form. 
+          </p>
+        </div>
+      </div>
+    </div>
+      <div class="image-with-text svg-bottom">
+      <div class="row container">
+        <div class="col">
+          <img src="./images/illustration-flowing-conversation.svg" alt="grow together" />
+        </div>
+        <div class="col">
+          <h2 class="title">Flowing Conversations</h2>
+          <p class="description">
+            You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+            just-in-time loading for a more natural flow.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="image-with-text svg-bottom">
+      <div class="row container">
+        <div class="col">
+          <img src="./images/illustration-your-users.svg" alt="grow together" />
+        </div>
+        <div class="col">
+          <h2 class="title">Your Users</h2>
+          <p class="description">
+            It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+            once signed in to your app, your users can start chatting immediately.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section>
+    <div class="container">
+      <div class="hero-text">
+        <h1 class="title">Ready To Build Your Community?</h1>
+        <button class="btn btn-primary">Get Started For Free</button>
+      </div>
+    </div>
+  </section>
+  </main>
+  </div>
+  <footer class="svg-top">
+    <div class="footer-content">
+      <div class="row container">
+        <div class="col">
+          <img class="logo" src="./images/logo-footer.svg" alt="Huddle">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+            vestibulum a, ultrices quis sem.
+          </p>
+          <div class="contact-info">
+            <img class="icon" src="./images/icon-phone.svg" alt="phone">
+            <span> Phone: +1-543-123-4567 </span>
+          </div>
+          <div class="contact-info">
+            <img class="icon" src="./images/icon-email.svg" alt="email">
+            <span> example@huddle.com </span>
+          </div>
+        </div>
+      
+        <div class="col">  
+          <h4>NEWSLETTER</h4>
+          <p>
+            To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+            send you spam or pass on your email address
+          </p>
+
+          <div class="form-group">
+            <form name="subscribeForm" id="subscribeForm">
+              <div class="input">
+                <input id="email" type="text">
+                <label class="email-validation"></label>
+              </div>
+              <button class="btn btn-primary btn-small">Subscribe</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      
+      <div class="social container">
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
